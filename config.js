@@ -20,15 +20,6 @@ const port = {
 };
 const hostname = "0.0.0.0";
 
-const i18nOptions = {
-  detectLang: false,
-  defaultLocale: "en",
-  crowdin: {
-    id: "cmints-website",
-    updateOption: "update_as_unapproved"
-  }
-};
-
 const deployment = {
   where: "git"
 };
