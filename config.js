@@ -44,5 +44,4 @@ const templateData =
 {
 };
 
-module.exports = {templateData, markdownOptions, i18nOptions, port,
-  hostname, deployment, gzip, root};
+module.exports = {};
