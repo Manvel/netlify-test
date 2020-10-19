@@ -8,15 +8,6 @@
   <% include partials/header %>
 <main class="device">
   <div class="col5">
-    <!-- Navigation Start -->
-    <%if (page.categories && page.navCategory && page.categories.includes(page.navCategory)) { %> 
-      <aside id="sideNav" class="cell1 tablet-hide">
-        <ul>
-          <% include partials/navigations/secondary %>
-        </ul>
-      </aside>
-    <% } %>
-    <!-- Navigation End -->
 
     <article class="cell2-4">
       <h1>{title}</h1>
@@ -24,14 +15,6 @@
       <%- page.body %>
     </article>
 
-    <!-- TOC Start -->
-    <%if (page.showTOC) { %>
-      <aside id="toc" class="cell5 center tablet-hide">
-        <h2>{toc-sidebar-header(common)}</h2>
-        <%- include('partials/navigations/toc', {items: page.markdown.toc}) %>
-      </aside>
-    <% } %>
-    <!-- TOC End -->
   </div>
 </main>
   <% include partials/footer %>
