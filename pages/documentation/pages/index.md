@@ -1,14 +1,6 @@
 ---
 title: Pages
 description: Learn about pages structure and how to create pages in <fix>CMintS</fix> using <fix>Markdown</fix>, <fix>ejs</fix> and <fix>HTML</fix>.
-navTitleId: nav-doc-title-overview
-topicTitle: nav-doc-title-pages
-showTOC: true
-categories: [documentation, pages]
-navCategory: documentation
-showEdit: documentation/pages/index.md
-showTranslate: 150
-order: 0
 ---
 
 {pages-p[Paragraph in 'Pages' section]
