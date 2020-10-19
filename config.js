@@ -22,7 +22,6 @@ const hostname = "0.0.0.0";
 
 const i18nOptions = {
   detectLang: false,
-  type: "Double",
   defaultLocale: "en",
   crowdin: {
     id: "cmints-website",
