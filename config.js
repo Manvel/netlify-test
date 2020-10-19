@@ -52,15 +52,6 @@ else if (argv.dev)
 
 const templateData =
 {
-  site: {
-    protocol,
-    domain,
-    root,
-    title: "CMintS",
-    description: "CMS created with the internationalization in mind",
-    github: "https://github.com/cmints/website",
-    crowdin: `https://crowdin.com/translate/${i18nOptions.crowdin.id}`,
-  }
 };
 
 module.exports = {templateData, markdownOptions, i18nOptions, port,
